@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 export default class About extends Component {
   render() {
     return (
-      <section id="about" className="s-about target-section">
+      <section id="about" className="s-about">
         <div className="row">
-          <div className="column large-3 tab-12">
+          <div className="column">
             <img className="s-about__pic" src="images/avatars/user-06.jpg" alt="" />
           </div>
           <div className="column large-9 tab-12 s-about__content">
@@ -21,7 +21,7 @@ export default class About extends Component {
                   Durga Vastaraya, Simrahi Bazar <br />
                   Ward No:05, Pin Code:852111, Bihar, India <br />
                   <a href="tel:+917808787907">+91 7808787907 </a> <br />
-                  <a href="mailto:#0">1805351@kiit.ac.in</a>
+                  <a href="mailto:1805351@kiit.ac.in">1805351@kiit.ac.in</a>
                 </p>
               </div>
               <div className="column w-1000-stack">
