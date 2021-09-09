@@ -3,19 +3,6 @@ export default class Header extends Component {
   render() {
     return (
       <React.Fragment>
-        <header id="home" className="banner-text">
-         <div className="row banner">
-          
-          <div>
-            <br></br>
-            <br></br>
-            <br></br>
-               <h1>I'm Sumit Agrawal.</h1>
-               <h3>I'm a Full Stack Developer.</h3>
-            </div>
-          
-          </div>
-        </header>
       <header id="home" className="s-header">
      
         <div className="row s-header__nav-wrap">
