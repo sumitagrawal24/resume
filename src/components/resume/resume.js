@@ -78,7 +78,7 @@ export default class Resume extends Component {
                 <p className="resume-block__header-meta">
                   <span>B.Tech in Computer Science and Engineering</span> 
                   <br></br>
-                  <span>CGPA: 9.09</span>
+                  <span>CGPA: 9.19</span>
                   <br></br>
                   <span className="resume-block__header-date">
                     July 2018 - June 2022
