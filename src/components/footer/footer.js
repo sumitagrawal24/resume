@@ -4,17 +4,18 @@ export default class Footer extends Component {
     return (
         <footer className="s-footer">
         <div className="row">
-          <div className="column large-4 medium-6 w-1000-stack s-footer__social-block">
+          <div className="large-4 medium-6 w-1000-stack s-footer__social-block">
             <ul className="s-footer__social">
-              <li><a href="https://www.google.com"><i className="fab fa-facebook-f" aria-hidden="true">Facebook</i></a></li>
-              <li><a href="#0"><i className="fab fa-twitter" aria-hidden="true">Twitter</i></a></li>
-              <li><a href="#0"><i className="fab fa-instagram" aria-hidden="true">Instagram</i></a></li>
+              <li><a href=" https://github.com/sumitagrawal24"><i className="fab fa-facebook-f" aria-hidden="true">GitHub</i></a></li>
               <li><a href="https://www.linkedin.com/in/sumit-agrawal-25aa751a0/"><i className="fab fa-linkedin-in" aria-hidden="true">LinkedIn</i></a></li>
-            </ul>
+              <li><a href="https://twitter.com/sumit_agrawal__"><i className="fab fa-twitter" aria-hidden="true">Twitter</i></a></li>
+              <li><a href="https://www.instagram.com/sumit.agrawal_/"><i className="fab fa-instagram" aria-hidden="true">Instagram</i></a></li>
+              <li><a href="https://www.facebook.com/sumit.agrawal.250445"><i className="fab fa-facebook-f" aria-hidden="true">Facebook</i></a></li>
+             </ul>
           </div>
           <div className="column large-7 medium-6 w-1000-stack ss-copyright">
             <span>© Copyright 2021</span> 
-            <span>Design by <a href="https://www.linkedin.com/in/sumit-agrawal-25aa751a0/">Sumit Agrawal</a></span>
+            <span>Design by   <a href="https://www.linkedin.com/in/sumit-agrawal-25aa751a0/"> Sumit Agrawal</a></span>
           </div>
         </div>
         <div className="ss-go-top">

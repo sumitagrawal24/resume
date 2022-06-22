@@ -10,16 +10,15 @@ export default class Header extends Component {
               <div className="s-hero__content-about">
                 <h1>I'm Sumit Agrawal.</h1>
                 <h3>
-                  I'm a <span>Full Stack developer</span>.<br></br> <span> I'm a final year B.Tech student from KIIT Deemed To Be University. </span><br></br>
+                  <span>Full Stack developer </span>,<br></br> <span>B.Tech, CSE graduate from KIIT Deemed To Be University. </span><br></br>
                  Let's <a className="smoothscroll" href="#about">start scrolling </a>and learn more <a className="smoothscroll" href="#about">about me</a>.
                 </h3>
                 <div className="s-hero__content-social">
-                  <a href="#0"><i className="fab fa-facebook-square" aria-hidden="true" /></a>
-                  <a href="#0"><i className="fab fa-twitter" aria-hidden="true" /></a>
-                  <a href="#0"><i className="fab fa-instagram" aria-hidden="true" /></a>
-                  <a href="#0"><i className="fab fa-dribbble" aria-hidden="true" /></a>
-                  <a href="#0"><i className="fab fa-behance" aria-hidden="true" /></a>
-                  <a href="#0"><i className="fab fa-linkedin" aria-hidden="true" /></a>
+                  <a href=" https://github.com/sumitagrawal24"><i className="fab fa-facebook-f" aria-hidden="true">GitHub</i></a>
+                  <a href="https://www.linkedin.com/in/sumit-agrawal-25aa751a0/"><i className="fab fa-linkedin-in" aria-hidden="true">LinkedIn</i></a>
+                  <a href="https://twitter.com/sumit_agrawal__"><i className="fab fa-twitter" aria-hidden="true">Twitter</i></a>
+                  <a href="https://www.instagram.com/sumit.agrawal_/"><i className="fab fa-instagram" aria-hidden="true">Instagram</i></a>
+                  <a href="https://www.facebook.com/sumit.agrawal.250445"><i className="fab fa-facebook-f" aria-hidden="true">Facebook</i></a>
                 </div>
               </div> {/* end s-hero__content-about */}
             </div>

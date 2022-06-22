@@ -6,16 +6,33 @@ export default class Resume extends Component {
       <section id="resume" className="s-resume target-section">
         <div className="row s-resume__section">
           <div className="column large-3 tab-12">
-            <h3 className="section-header-allcaps">Projects</h3>
+            <h3 className="section-header-allcaps">Internship/ Projects</h3>
           </div>
-          <div className="column large-9 tab-12">
+          <div className="column large-9 tab-10">
+            <div className="resume-block">
+                <div className="resume-block__header">
+                  <h4 className="h3">Full Stack Development - Internship</h4>
+                  <p className="resume-block__header-meta">
+                    <span>Major Project</span>
+                    <span className="resume-block__header-date">
+                      Jun 2021 - June 2022
+                    </span>
+                    <p>UI Development and Enhancement</p>
+                    <p>Developed UI screens and worked on Enhancement for the existing screens</p>
+                   <span>Skills : Core Java, ExtJS, Spring Framework, Hibernate, MySQL, SQL Queries, JDBC, Servlets, JSP, Apache Tomcat, Struts, Jira, Putty</span><br></br>
+                  </p>
+                </div>
+                <p>
+                
+                </p>
+              </div>
             <div className="resume-block">
               <div className="resume-block__header">
                 <h4 className="h3">React/Java</h4>
                 <p className="resume-block__header-meta">
                   <span>Minor Project, Full Stack Development</span> 
                   <span className="resume-block__header-date">
-                    March 2021 - May 2021
+                    Jan 2021 - Mar 2021
                   </span>
                 </p>
               </div>
@@ -23,6 +40,7 @@ export default class Resume extends Component {
               FinTech B2B Invoice Management
               </p>
             </div>
+            
             <div className="resume-block">
               <div className="resume-block__header">
                 <h4 className="h3">Android Development</h4>
@@ -123,7 +141,7 @@ export default class Resume extends Component {
           </div>
         </div> {/* s-resume__section */}
         <div className="row s-resume__section">
-          <div className="column large-3 tab-12">
+          <div className="column large-3 tab-10">
             <h3 className="section-header-allcaps">Technical Skills</h3>
           </div>
           <div className="column large-9 tab-12">
@@ -132,48 +150,77 @@ export default class Resume extends Component {
               </p>
               <ul className="skill-bars-fat">
               <li>
-                  <div className="progress percent85" />
-                  <strong>Java</strong>
+                  <div className="progress percent100" />
+                  <strong>Core Java</strong>
               </li>
               <li>
-                  <div className="progress percent90" />
-                  <strong>Python</strong>
+                  <div className="progress percent95" />
+                  <strong>Advance Java</strong>
               </li>
               <li>
-                  <div className="progress percent75" />
+                  <div className="progress percent100" />
+                  <strong>Servlet</strong>
+              </li>
+              <li>
+                  <div className="progress percent100" />
+                  <strong>Spring Framework</strong>
+              </li>
+              <li>
+                  <div className="progress percent100" />
+                  <strong>Struts</strong>
+              </li>
+              <li>
+                  <div className="progress percent100" />
+                  <strong>Hibernate</strong>
+              </li>
+              <li>
+                  <div className="progress percent95" />
                   <strong>ReactJS</strong>
               </li>
-                <li>
-                  <div className="progress percent85" />
-                  <strong>HTML</strong>
-                </li>
-                <li>
-                  <div className="progress percent85" />
-                  <strong>CSS</strong>
-                </li>
-                <li>
-                  <div className="progress percent65" />
-                  <strong>Javascript</strong>
-                </li>
-                <li>
-                  <div className="progress percent90" />
+              <li>
+                  <div className="progress percent100" />
                   <strong>SQL</strong>
-                </li>
+              </li>
+              <li>
+                  <div className="progress percent100" />
+                  <strong>JDBC</strong>
+              </li>
+              <li>
+                  <div className="progress percent100" />
+                  <strong>ExtJS</strong>
+              </li>
+              <li>
+                  <div className="progress percent100" />
+                  <strong>Apache Tomcat</strong>
+              </li>
+             
+              <li>
+                  <div className="progress percent95" />
+                  <strong>Javascript</strong>
+              </li>
+              <li>
+                <div className="progress percent100" />
+                <strong>HTML</strong>
+              </li>
+              <li>
+                <div className="progress percent100" />
+                <strong>CSS</strong>
+              </li>
+              <li>
+                  <div className="progress percent90" />
+                  <strong>Data Structures</strong>
+              </li>
+              <li>
+                <div className="progress percent95" />
+                <strong>Python</strong>
+              </li>
                 <li>
-                  <div className="progress percent75" />
+                  <div className="progress percent95" />
                   <strong>C</strong>
                 </li>
                 <li>
-                  <div className="progress percent85" />
+                  <div className="progress percent95" />
                   <strong>C++</strong>
-                </li>
-                <li>
-                  <div className="progress percent85" />
-                  <strong>Extjs</strong>
-                </li>
-                <li>
-                  <div className="progress percent75" />
-                  <strong>Data Structures</strong>
                 </li>
               </ul>
             </div>
